@@ -45,8 +45,10 @@
 }
 
 .paraHeading {
-  color: black;
-  font-size: 52px;
+  background: -webkit-linear-gradient(red, black);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 70px;
   font-style: oblique;
   font-family: monospace;
   font-weight: bolder;
@@ -73,7 +75,7 @@
 .paraMain {
   position: absolute;
   left: 500px;
-  top: 220px;
+  top: 100px;
 }
 
 #canvas {
