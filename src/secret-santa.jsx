@@ -12,7 +12,7 @@ const SecretSanta = props => {
     const [santaEmail, setSantaEmail] = useState('')
 
     const getSecretSanta = async (email) => {
-        const data = await Axios.post('http://secret-santa-nagarro.herokuapp.com/api/user/getMySecretSanta', { email });
+        const data = await Axios.post('wss://secret-santa-nagarro.herokuapp.com/api/user/getMySecretSanta', { email });
         // const data = http.post('http://localhost:3000/api/user/getMySecretSanta', { email })
         // data.then(res => {
         //     console.log(res);
