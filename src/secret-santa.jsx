@@ -3,7 +3,7 @@ import nagarro from './NagarroLogo.png'
 import Background from './sec.jfif'
 import Axios from 'axios';
 import queryString from 'query-string';
-import http from './httpService';
+import chrTree from './tree.gif';
 
 
 const SecretSanta = props => {
@@ -152,7 +152,7 @@ const SecretSanta = props => {
 
             <div className='paraMain'>
                 <p className='paraHeading'>
-                    Your are a Secret Santa of
+                    You are secret Santa for
                 </p>
                 <div className="container" id="js-container">
                     <canvas className="canvas" id="js-canvas" width="300" height="300"></canvas>
@@ -161,6 +161,7 @@ const SecretSanta = props => {
                 </div>
                 <p style={{ textAlign: 'center' }}>Scratch Above</p>
             </div>
+            <img src={chrTree} alt="logo" className='tree' />
 
         </React.Fragment>
     );

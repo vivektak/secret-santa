@@ -108,3 +108,9 @@ body {
   top: 0;
   z-index: 1;
 }
+
+.tree {
+  position: absolute;
+  right: 50px;
+  top: 200px;
+}
